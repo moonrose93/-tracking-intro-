@@ -1,0 +1,3 @@
+1. We use positioning like absolute and relative for small elements like p tags etc tath we dont want the moving of this elements to affect the surrounding of the document.
+2. Imoprting google fonts in the index html in the react and then use it in our CSS.
+3. 

@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-transform: uppercase;
+  height: 100vh;
+  display: flex; /* Added to make the body a flex container */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.container-mobile {
+  width: 420px;
+  
+
+}
+
+.image-right-mobile {
+  width: 400px;
+  position: relative;
+  left:62px;
+ 
+}
+
+.logo-mobile {
+  object-fit: contain;
+  width: 30px;
+
+}
+
+.icon-close{
+  object-fit: contain;
+  width: 30px;
+
+}
+
+.burger-icon{
+  object-fit: contain;
+  width: 30px;
+  cursor: pointer;
+
+}
+
+.left-mobile {
+  width: 420px;
+  margin-top: 50px;
+
+}
+
+.nav-bar-mobile{
+  width: 100%;
+  max-width: 370px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.new-mobile {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.monograph-mobile {
+  letter-spacing: 0.3rem;
+  position: relative;
+  left: 20px;
+  color: gray;
+  
+}
+
+
+.button-txt-mobile{
+  display: flex;
+  position: relative;
+  left:45px;
+}
+
+.btn-mobile{
+  padding: 5px 20px;
+  background-color: rgb(230, 113, 113);
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.06rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.6rem;
+}
+
+
+.middle{
+  position: relative;
+  left:50px;
+  width: 320px;
+}
+
+.for-heading-mobile {
+  display: flex;
+  align-items: center;
+  position: relative;
+  right:-50px;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 420px;
+  width: 320px;
+ 
+}
+
+.button-txt-mobile{
+  display: flex;
+  margin-top: -40px;
+}
